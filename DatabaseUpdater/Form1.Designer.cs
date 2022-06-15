@@ -56,6 +56,7 @@
             // 
             // SelectCSVLabel
             // 
+            this.SelectCSVLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.SelectCSVLabel.AutoSize = true;
             this.SelectCSVLabel.Location = new System.Drawing.Point(378, 38);
             this.SelectCSVLabel.Name = "SelectCSVLabel";
@@ -65,6 +66,7 @@
             // 
             // SelectcsvButton
             // 
+            this.SelectcsvButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.SelectcsvButton.Location = new System.Drawing.Point(452, 75);
             this.SelectcsvButton.Name = "SelectcsvButton";
             this.SelectcsvButton.Size = new System.Drawing.Size(75, 23);
@@ -75,7 +77,8 @@
             // 
             // UpdateButton
             // 
-            this.UpdateButton.Location = new System.Drawing.Point(452, 191);
+            this.UpdateButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.UpdateButton.Location = new System.Drawing.Point(452, 202);
             this.UpdateButton.Name = "UpdateButton";
             this.UpdateButton.Size = new System.Drawing.Size(75, 23);
             this.UpdateButton.TabIndex = 4;
@@ -87,14 +90,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 461);
             this.Controls.Add(this.UpdateButton);
             this.Controls.Add(this.SelectcsvButton);
             this.Controls.Add(this.SelectCSVLabel);
             this.Controls.Add(this.SelectDBButton);
             this.Controls.Add(this.SelectDBLabel);
+            this.MinimumSize = new System.Drawing.Size(700, 500);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Database Updater";
             this.ResumeLayout(false);
             this.PerformLayout();
 
