@@ -7,7 +7,7 @@ Prebuild windows binaries can be found under releases on the github page for Dat
 # Usage
 DatabaseUpdater is a GUI program. Usage of the program is as follows:
 1. Select the database file you want to update.
-2. Select a csv file of checksums for converted files saved from a previous database file. 
+2. Select a csv or .txt file of checksums for converted files saved from a previous database file. 
 An example sql command for retrieving the checksums for converted files can be seen below:
 ```sql
 SELECT checksum FROM Files WHERE Files.uuid IN (SELECT uuid FROM _ConvertedFiles);
