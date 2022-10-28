@@ -23,7 +23,12 @@ namespace DatabaseUpdater
         private List<String> parseChecksums()
         {
             List<string> checksums = File.ReadAllLines(csvFilePath).ToList();
-            checksums.RemoveAt(0);
+            
+            // If the text file is generated as a csv file from DB Browser, the first line is the column name. 
+            if (checksums[0] == "checksum")
+            {
+                checksums.RemoveAt(0);
+            }
             return checksums;
         }
 

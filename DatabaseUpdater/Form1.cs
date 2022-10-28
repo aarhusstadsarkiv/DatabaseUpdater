@@ -29,7 +29,7 @@ namespace DatabaseUpdater
         private void SelectcsvButton_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = "csv files | *.csv";
+            openFileDialog.Filter = "csv files | *.csv| text files | *.txt" ;
 
 
             if (openFileDialog.ShowDialog() == DialogResult.OK)
