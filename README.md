@@ -2,7 +2,7 @@
 The DatabaseUpdater tool is used to update a digiarch generated database with information about converted files.
 
 # Installation
-Prebuild windows binaries can be found under releases on the github page for DatabaseUpdater. To use the prebuild binary, download the release zip file and extract it. The extracted folder will include a windows executable (.exe) file. For ease of use, you can add a shortcut to the executable on your desktop.
+Prebuild windows binaries can be found under [releases](https://github.com/aarhusstadsarkiv/DatabaseUpdater/releases) on the github page for DatabaseUpdater. To use the prebuild binary, download the release zip file and extract it. The extracted folder will include a windows executable (.exe) file. For ease of use, you can add a shortcut to the executable on your desktop.
 
 # Usage
 DatabaseUpdater is a GUI program. Usage of the program is as follows:
